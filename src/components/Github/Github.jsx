@@ -12,7 +12,7 @@ function Github() {
     },[])
 
   return (
-    <div className='text-center m-4  bg-gray-600 text-white p-4 text-3xl'>Github follower:{data.followers}
+    <div className='dark:text-white text-center m-4  bg-gray-600 text-white p-4 text-3xl dark:bg-gray-800 dark:border-gray-700 dark:m-0'>Github follower:{data.followers}
     <img src={data.avatar_url} alt="" width={300}  /> </div>
   )
 }
