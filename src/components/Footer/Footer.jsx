@@ -10,7 +10,7 @@ export default function Footer() {
                         <Link to="/" className="flex items-center dark:text-white ">
                             <img
                                 src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
-                                className="mr-3 h-16"
+                                className="mr-3 h-16 dark:border dark:rounded-xl"
                                 alt="Logo"
                             />
                         </Link>
@@ -76,7 +76,7 @@ export default function Footer() {
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
                         <Link to="#" className="text-gray-500 hover:text-gray-900">
                             <svg
-                                className="w-4 h-4"
+                                className="w-4 h-4 dark:text-white"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"
